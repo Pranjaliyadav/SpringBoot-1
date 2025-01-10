@@ -1,0 +1,13 @@
+https://start.spring.io/
+go to this site and select maven as project along with other things to generate spring boot file
+
+common embedded servers in java - Tomcat, Jetty, Undertow, Netty, Glassfish, Grizzly
+
+create a Rest controller
+@RestController
+public class FirstController {
+@GetMapping("/")
+public String sayHello(){
+return "Hello world!";
+}
+}
