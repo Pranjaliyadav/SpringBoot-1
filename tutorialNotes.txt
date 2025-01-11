@@ -11,3 +11,33 @@ public String sayHello(){
 return "Hello world!";
 }
 }
+------------JAR file-------------
+A JAR (Java Archive) file is a package file format used in
+ the Java ecosystem to bundle multiple files into a single
+  archive. It is primarily used to distribute Java classes,
+   associated metadata, and resources like images or configuration
+    files. A JAR file is essentially a compressed ZIP file with
+    a .jar extension and follows the ZIP file structure.
+    JAR	Bundles Java classes and resources	Libraries, applications
+    WAR	Web Application Archive (extends JAR)	Web apps for servlet containers (e.g., Tomcat)
+    EAR	Enterprise Archive (bundles WAR/JAR files)	Enterprise Java applications (e.g., JBos
+
+
+----------------Maven--------------
+when we generate projects using spring initializr - start.spring.io
+can generate a maven project for u
+dependencies in pom.xml, like package.json in npm
+Maven is a project management tool
+most popular use of maven is for build management and dependencies
+kindoff like npm, but here its used as a build tool as well
+
+Problems solved by maven -
+- when building java project, may need additional JAR files.
+- example - Spring, Hibernate, Commons Logging, JSON etc
+
+- manually it can also be done, by individually downloading those JAR files from each project web site and add
+the JAR files to build path/classpath
+
+
+
+
