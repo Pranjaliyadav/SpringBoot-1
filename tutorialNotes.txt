@@ -36,7 +36,7 @@ Problems solved by maven -
 - example - Spring, Hibernate, Commons Logging, JSON etc
 
 - manually it can also be done, by individually downloading those JAR files from each project web site and add
-the JAR files to build path/classpath
+the JAR files to build path/classpathh
 
 
 
